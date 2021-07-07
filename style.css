@@ -1,0 +1,179 @@
+  
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+	font-family: 'Roboto', sans-serif;
+}
+a:focus {
+  outline: 0;
+}
+body {
+  min-height: 100vh;
+  background-color: #313940;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+.header {
+  text-align: center;
+  width: 100%;
+  background: #313940;
+  border-bottom: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #38495a, #a2abb3, #38495a);
+}
+.header-title {
+	font-size: 24px;
+  line-height: 60px;
+  font-weight: 300;
+  color: #fff;
+}
+.main {
+  min-height: calc(100vh - 110px);
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.aside {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 20px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.avatar {
+	max-width: 500px;
+	width: 80%;
+}
+
+.info {
+	width: 90%;
+	display: flex;
+	margin: 20px 0;
+	font-size: 14px;
+}
+
+.info-list {
+	list-style: none;
+}
+
+.info-list-item {
+	margin: 5px 0;
+}
+
+.info-link {
+	text-decoration: none;
+	color: #a2abb3;
+}
+
+.info-link:hover {
+	color: #38495a;
+}
+
+.article {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 20px;
+	padding: 0 20px 10px 20px;
+	background-color: #fff;
+}
+
+.subheader {
+	text-decoration: underline;
+	color: #38495a;
+	font-size: 18px;
+	margin: 10px 0 0;
+	text-transform: uppercase;
+}
+
+.text {
+	margin: 10px 0 0;
+	font-size: 12px;
+}
+
+.skills-list {
+	margin: 10px 10px 0 20px;
+	list-style-type: square;
+}
+
+.skills-list-item {
+	font-size: 12px;
+}
+
+pre {
+	border-style: dotted;
+  border-color:#4682B4;
+	margin-top: 10px;
+	padding: 0 10px;
+	font-size: 12px;
+}
+
+.footer {
+  border-top: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #38495a, #a2abb3, #38495a);
+  background-color: #313940;
+}
+.footer-container {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.github {
+  display: block;
+  width: 120px;
+  height: 45px;
+  padding-left: 45px;
+  background-image: url('assets/svg/github.svg');
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 45px;
+  color: #cbd5de;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  transition: 0.3s;
+}
+.github:hover {
+  color: #fff;
+}
+.rss {
+  display: block;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  width: 86px;
+  height: 32px;
+  background-image: url('assets/svg/rss.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-right: 111px;
+}
+.rss-year {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 21px;
+  letter-spacing: -2px;
+  color: #cbd5de;
+  line-height: 0.9;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.rss:hover .rss-year {
+  right: -5px;
+  letter-spacing: 0;
+}
