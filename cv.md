@@ -14,3 +14,8 @@ function squareDigits(num) {
     return Number(array.join(''));
 }
 ```  
+**Additional courses:**  
+[HTML Codecademy certificate](https://drive.google.com/file/d/1xrzwfbuJnXe6iSfcS4QmiVd5bX2JVGpr/view?usp=sharing)  
+[CSS Codecademy certificate](https://drive.google.com/file/d/1N4RaefSHDKGTRJ9sTCHvXY1JTqiTtwVL/view?usp=sharing)  
+[HTML and CSS Stepik certificate](https://drive.google.com/file/d/1kKRQ_bf5c5O6xHaYz-uKyyrVdZgqKu9a/view?usp=sharing)  
+**English level:** *B1*
